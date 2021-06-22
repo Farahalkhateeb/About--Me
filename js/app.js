@@ -83,3 +83,37 @@ switch(userInfo4.toLowerCase){
        alert("i studied communication engineer")
        
 }
+
+
+let userf1=Number(prompt('please,guess the number that in my mind'));
+for (let index = 0; index < 4; index++) {
+    switch(userf1){
+        case 8 :
+            alert ('correct');
+            case <8 :
+                alert ('its low than the expected');
+                case >8:
+                    alert('its higher than i expected')
+
+    }
+    
+}
+let farahQ=['mansaf','shawrma','zinger'];
+let ans=prompt('What is my favourite three meals?').toLowerCase();
+for(let i=0; i<5; i++){ 
+if(ans===farahQ[0] || ans===farahQ[1]|| ans===farahQ[2]){
+    alert('its correct answer');
+    alert('my favourite three meals are mansaf,shawrma and zinger');
+    degreeQ++;
+
+    break;
+
+}
+else{alert('its wrong answer');
+}
+
+ans =prompt('What is my favourite three meals?').toLowerCase();
+
+}
+alert('Welcome'  + userType + 'you collected a  ' + degreeQ + 'from 7');
+
